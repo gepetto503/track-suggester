@@ -14,28 +14,28 @@ $(document).ready(function() {
 
     if (likeComps === "no") {
       $(".results").hide();
-      $("#else").show();
+      $("#else").fadeIn();
     } else if (lookWork === "look") {
       $(".results").hide();
-      $("#css").show();
+      $("#css").fadeIn();
     } else if (appSite === "app") {
       $(".results").hide();
-      $("#ruby").show();
+      $("#ruby").fadeIn();
     } else if (coSize === "big" && androidBase === "base") {
       $(".results").hide();
-      $("#c-sharp").show();
+      $("#c-sharp").fadeIn();
     }else if (coSize === "big" && androidBase === "android") {
       $(".results").hide();
-      $("#java").show();
+      $("#java").fadeIn();
     } else if (coSize === "small" && appSite === "site") {
       $(".results").hide();
-      $("#php").show();
+      $("#php").fadeIn();
     } else {
       $(".results").hide();
-      $("#uhoh").show();
+      $("#uhoh").fadeIn();
     };
 
-    $("#personsname").append(nameInput);
+    $("#personsname").empty().append(nameInput);
 
 
   });

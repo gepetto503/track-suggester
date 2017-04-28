@@ -14,7 +14,7 @@ _The html file can be opened on any browser: the form submit does not require a 
 
 ## Known Bugs
 
-_There are no known bugs, as I am a code lord and have fixed them already._
+_In cases where the js attempts to append the users inputed name into the spans with id of "personsname", it only fills in the first span.  For example if the users result is Ruby._
 
 ## Support and contact details
 
