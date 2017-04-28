@@ -10,8 +10,6 @@ _This website uses a form to gather information from users about their preferenc
 
 ## Setup/Installation Requirements
 
-* _Run index.html in any browser_
-
 _The html file can be opened on any browser: the form submit does not require a server to be set up._
 
 ## Known Bugs
@@ -20,7 +18,7 @@ _There are no known bugs, as I am a code lord and have fixed them already._
 
 ## Support and contact details
 
-_{contact Brendan Hanna at gepetto503@gmail.com for any questions, concerns or to praise the code lord.}_
+_contact Brendan Hanna at gepetto503@gmail.com for any questions, concerns or to praise the code lord._
 
 ## Technologies Used
 
