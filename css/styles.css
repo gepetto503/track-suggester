@@ -12,7 +12,9 @@ body {
 }
 
 img {
-  max-width: 400px;
+  /*max-width: 400px;*/
+  min-height: 100px;
+  max-height: 300px;
   margin-left: 40px;
   padding: 40px;
 }
@@ -32,6 +34,20 @@ img {
 
 }
 
+.formpadding {
+  padding: 10px;
+}
+
+.submitbutton {
+  color: black;
+  width: 150px;
+  height: 50px;
+}
+
+.blacktext {
+  color: black;
+}
+
 .green{
   background-color: green;
 }
@@ -42,8 +58,4 @@ img {
 
 .red {
   background-color: red;
-}
-
-.formpadding {
-  padding: 10px;
 }

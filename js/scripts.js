@@ -10,6 +10,8 @@ $(document).ready(function() {
     var androidBase = $("input:radio[name=android-base]:checked").val();
     var likeComps = $("input:radio[name=likecomps]:checked").val();
 
+    var nameInput = $("input#nameinput").val();
+
     if (likeComps === "no") {
       $(".results").hide();
       $("#else").show();
@@ -32,6 +34,8 @@ $(document).ready(function() {
       $(".results").hide();
       $("#uhoh").show();
     };
+
+    $("#personsname").append(nameInput);
 
 
   });

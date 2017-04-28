@@ -15,6 +15,12 @@
           <h4>Epicodus Offers 5 Tracks.  Which One is Right for You?</h4>
         </div>
         <form id="userForm" class="formpadding" action="index.html" method="post">
+          <!-- name question -->
+          <div class="form-group">
+            <label for="nameinput">Name</label>
+            <input id="nameinput" class="name" type="text">
+        </div>
+          <!-- real questions -->
           <div class="radio">
             <h3>Question 1: Front End or Back End</h3>
             <p>Do you prefer to deal with how things look, or with how they work?</p>
@@ -75,7 +81,7 @@
               FUCK COMPUTERS
             </label>
           </div>
-          <button type="submit" name="button">Submit</button>
+          <button class="submitbutton blacktext" type="submit" name="button">Submit</button>
         </form>
         <div class="pursue">
           <h3>You Should Pursue:</h3>
@@ -95,7 +101,7 @@
           <div class="results" id="ruby">
             <h3>Ruby</h3>
             <p>
-              Wether you work at Intel or your own startup that you literally just made up five minutes ago, Ruby is poppin' right now when it comes to building interactive web applications.
+              <span id="personsname"></span>, wether you work at Intel or your own startup that you literally just made up five minutes ago, Ruby is poppin' right now when it comes to building interactive web applications.
             </p>
             <img src="https://rebornix.gallerycdn.vsassets.io/extensions/rebornix/ruby/0.12.0/1492810362829/Microsoft.VisualStudio.Services.Icons.Default" alt="the ruby programming language logo" />
           </div>
@@ -119,7 +125,7 @@
             <h3>Why are you even here?</h3>
           </div>
           <div class="results" id="uhoh">
-              <h3>Dude, not enough info</h3>
+              <h3>Dude, not enough info.</h3>
               <img src="https://pbs.twimg.com/profile_images/75603339/spicoli.jpg" alt="spicoli looking distraught" />
               <h3>make sure you answered all the questions</h3>
             </div>
