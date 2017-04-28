@@ -10,6 +10,8 @@
   <body>
     <div class="container">
 
+      <!-- the form -->
+
       <form id="userForm" action="index.html" method="post">
         <div class="radio">
           <h2>Question 1: Front End or Back End</h2>
@@ -35,23 +37,23 @@
             Startup
           </label>
         </div>
-
         <div class="radio">
-          <h2>Question 3: Web Apps</h2>
-          <p>Would you rather build web apps or do something else?</p>
+          <h2>Question 3: Web Apps VS Web Pages</h2>
+          <p>Which sounds more enticing?  Building web apps with lots of user interaction, or content-heavy websites for brands, businesses and organizations?</p>
           <label>
-            <input type="radio" name="app" value="yes">
-            Yeah, I want to build web apps
+            <input type="radio" name="app-site" value="app">
+            Interactive web apps
           </label>
           <label>
-            <input type="radio" name="app" value="no">
-            Nah, I'm good
+            <input type="radio" name="app-site" value="site">
+            Content-heavy websites
           </label>
         </div>
 
         <button type="submit" name="button">Submit</button>
       </form>
 
+      <!-- result divs -->
 
       <div class="results" id="css">
         <h2>CSS</h2>
@@ -67,7 +69,18 @@
           Wether you work at Intel or your own startup that you literally just made up five minutes ago, Ruby is poppin' right now when it comes to building interactive web applications.
         </p>
       </div>
-
+      <div class="results" id="java">
+        <h2>Java</h2>
+        <p>If you want to work at an enterprise-level company as an Android developer, Java is watchu need.</p>
+      </div>
+      <div class="results" id="php">
+        <h2>PHP</h2>
+        <p>If you want to work at a creative agency building content-heavy websites for brands, PHP would be a good language to know.</p>
+      </div>
+      <div class="results" id="uhoh">
+        <h2>something went wrong</h2>
+        <img src="https://pbs.twimg.com/profile_images/75603339/spicoli.jpg" alt="spicoli looking distraught" />
+      </div>
     </div>
   </body>
 </html>
