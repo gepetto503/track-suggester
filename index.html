@@ -9,6 +9,7 @@
   </head>
   <body>
     <div class="container">
+
       <form id="userForm" action="index.html" method="post">
         <div class="radio">
           <h2>Question 1: Front End or Back End</h2>
@@ -34,8 +35,24 @@
             Startup
           </label>
         </div>
+
+        <div class="radio">
+          <h2>Question 3: Web Apps</h2>
+          <p>Would you rather build web apps or do something else?</p>
+          <label>
+            <input type="radio" name="app" value="yes">
+            Yeah, I want to build web apps
+          </label>
+          <label>
+            <input type="radio" name="app" value="no">
+            Nah, I'm good
+          </label>
+        </div>
+
         <button type="submit" name="button">Submit</button>
       </form>
+
+
       <div class="results" id="css">
         <h2>CSS</h2>
         <p>you would be good at css, bro.</p>
@@ -44,6 +61,13 @@
         <h2>C#</h2>
         <p>Pronounced "C Sharp," this language fits your whole boring-back-end-stuff-at-a-huge-corporate-shithole vibe."</p>
       </div>
+      <div class="results" id="ruby">
+        <h2>Ruby</h2>
+        <p>
+          Wether you work at Intel or your own startup that you literally just made up five minutes ago, Ruby is poppin' right now when it comes to building interactive web applications.
+        </p>
+      </div>
+
     </div>
   </body>
 </html>
