@@ -9,108 +9,121 @@
   </head>
   <body>
     <div class="container">
-
-      <!-- the form -->
-
-      <form id="userForm" action="index.html" method="post">
-        <div class="radio">
-          <h2>Question 1: Front End or Back End</h2>
-          <p>Do you prefer to deal with how things look, or with how they work?</p>
-          <label>
-            <input type="radio" name="front-back" value="look">
-            How things look
-          </label>
-          <label>
-            <input type="radio" name="front-back" value="work">
-            How they work
-          </label>
+      <div class="container-bg">
+        <div class="heading">
+          <h2>Which Programming Language Should I Learn?</h2>
+          <h4>Epicodus Offers 5 Tracks.  Which One is Right for You?</h4>
         </div>
-        <div class="radio">
-          <h2>Question 2: Big or Small Company</h2>
-          <p>Would you rather work for an enterprise-level company or a startup?</p>
-          <label>
-            <input type="radio" name="cosize" value="big">
-            Enterprise level company
-          </label>
-          <label>
-            <input type="radio" name="cosize" value="small">
-            Startup
-          </label>
+        <form id="userForm" class="formpadding" action="index.html" method="post">
+          <div class="radio">
+            <h3>Question 1: Front End or Back End</h3>
+            <p>Do you prefer to deal with how things look, or with how they work?</p>
+            <label>
+              <input type="radio" name="front-back" value="look">
+              How things look
+            </label>
+            <label>
+              <input type="radio" name="front-back" value="work">
+              How they work
+            </label>
+          </div>
+          <div class="radio">
+            <h3>Question 2: Big or Small Company</h3>
+            <p>Would you rather work for an enterprise-level company or a startup?</p>
+            <label>
+              <input type="radio" name="cosize" value="big">
+              Enterprise level company
+            </label>
+            <label>
+              <input type="radio" name="cosize" value="small">
+              Startup
+            </label>
+          </div>
+          <div class="radio">
+            <h3>Question 3: Web Apps VS Web Pages</h3>
+            <p>Which sounds more enticing?  Building web apps with lots of user interaction, or content-heavy websites for brands, businesses and organizations?</p>
+            <label>
+              <input type="radio" name="app-site" value="app">
+              Interactive web apps
+            </label>
+            <label>
+              <input type="radio" name="app-site" value="site">
+              Content-heavy websites
+            </label>
+          </div>
+          <div class="radio">
+            <h3>Question 4: Database or Android?</h3>
+            <p>Would you rather work on big back end databases or on Android user interfaces?</p>
+            <label>
+              <input type="radio" name="android-base" value="base">
+              Database
+            </label>
+            <label>
+              <input type="radio" name="android-base" value="android">
+              Android
+            </label>
+          </div>
+          <div class="radio">
+            <h3>Question 5: Do you even like computers?</h3>
+            <p>or do they make you throw up in your mouth?</p>
+            <label>
+              <input type="radio" name="likecomps" value="yes">
+              Why would I be looking into coding if I didn't like computers?
+            </label>
+            <label>
+              <input type="radio" name="likecomps" value="no">
+              FUCK COMPUTERS
+            </label>
+          </div>
+          <button type="submit" name="button">Submit</button>
+        </form>
+        <div class="pursue">
+          <h3>You Should Pursue:</h3>
         </div>
-        <div class="radio">
-          <h2>Question 3: Web Apps VS Web Pages</h2>
-          <p>Which sounds more enticing?  Building web apps with lots of user interaction, or content-heavy websites for brands, businesses and organizations?</p>
-          <label>
-            <input type="radio" name="app-site" value="app">
-            Interactive web apps
-          </label>
-          <label>
-            <input type="radio" name="app-site" value="site">
-            Content-heavy websites
-          </label>
+          <div class="results" id="css">
+            <h3>CSS</h3>
+            <p>you would be good at css, bro.</p>
+            <img src="http://geekadelphia.com/wp-content/uploads/2011/07/bro.jpg" alt="a bro" />
+          </div>
+          <div class="results" id="c-sharp">
+            <h3>C#</h3>
+            <p>Pronounced "C Sharp," this language is popular with big businesses, often for building internal software.</p>
+            <img src="http://www.goliath.com/wp-content/uploads/2015/09/office-space-stephen-root-as-milton.png" alt="milton from office space" />
+            <h3>Possible Job Scenario</h3>
+            <p>The most boring job ever.</p>
+          </div>
+          <div class="results" id="ruby">
+            <h3>Ruby</h3>
+            <p>
+              Wether you work at Intel or your own startup that you literally just made up five minutes ago, Ruby is poppin' right now when it comes to building interactive web applications.
+            </p>
+            <img src="https://rebornix.gallerycdn.vsassets.io/extensions/rebornix/ruby/0.12.0/1492810362829/Microsoft.VisualStudio.Services.Icons.Default" alt="the ruby programming language logo" />
+          </div>
+          <div class="results" id="java">
+            <h3>Java</h3>
+            <p>Java is favored by enterprise companies but is also one the most popular of all programming languages in any environment.  If you want to be an Android developer, Java is for you.</p>
+            <img src="http://www.codedwebmaster.com/wp-content/uploads/2015/07/java.jpg" alt="java programming language logo"/>
+            <h3>Possible Job Scenario</h3>
+            <p>At the risk of sounding redundant, an Android developer.</p>
+          </div>
+          <div class="results" id="php">
+            <h3>PHP</h3>
+            <p>PHP is great for building content-heavy websites.</p>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/PHP-logo.svg/1200px-PHP-logo.svg.png" alt="php programming language logo" />
+            <h3>Possible Job Scenario</h3>
+            <p>Working for a creative ad agency building websites for brands.</p>
+          </div>
+          <div class="results" id="else">
+            <h3>Something Else!</h3>
+            <img src="http://www.wallfrog.com/wp-content/uploads/2015/03/man-trowing-computer-out.jpg" alt="man throwing computer in lake" />
+            <h3>Why are you even here?</h3>
+          </div>
+          <div class="results" id="uhoh">
+              <h3>Dude, not enough info</h3>
+              <img src="https://pbs.twimg.com/profile_images/75603339/spicoli.jpg" alt="spicoli looking distraught" />
+              <h3>make sure you answered all the questions</h3>
+            </div>
         </div>
-        <div class="radio">
-          <h2>Question 4: Database or Android?</h2>
-          <p>Would you rather work on big back end databases or on Android user interfaces?</p>
-          <label>
-            <input type="radio" name="android-base" value="base">
-            Database
-          </label>
-          <label>
-            <input type="radio" name="android-base" value="android">
-            Android
-          </label>
-        </div>
-        <div class="radio">
-          <h2>Question 5: Do you even like computers?</h2>
-          <p>or do they make you throw up in your mouth?</p>
-          <label>
-            <input type="radio" name="likecomps" value="yes">
-            Why would I be looking into coding if I didn't like computers?
-          </label>
-          <label>
-            <input type="radio" name="likecomps" value="no">
-            FUCK COMPUTERS
-          </label>
-        </div>
-        <button type="submit" name="button">Submit</button>
-      </form>
-
-      <!-- result divs -->
-
-      <div class="results" id="css">
-        <h2>CSS</h2>
-        <p>you would be good at css, bro.</p>
-        <img src="http://geekadelphia.com/wp-content/uploads/2011/07/bro.jpg" alt="a bro" />
-      </div>
-      <div class="results" id="c-sharp">
-        <h2>C#</h2>
-        <p>Pronounced "C Sharp," this language fits your whole boring-back-end-stuff-at-a-huge-corporate-shithole vibe."</p>
-        <img src="http://www.goliath.com/wp-content/uploads/2015/09/office-space-stephen-root-as-milton.png" alt="milton from office space" />
-      </div>
-      <div class="results" id="ruby">
-        <h2>Ruby</h2>
-        <p>
-          Wether you work at Intel or your own startup that you literally just made up five minutes ago, Ruby is poppin' right now when it comes to building interactive web applications.
-        </p>
-        <img src="https://rebornix.gallerycdn.vsassets.io/extensions/rebornix/ruby/0.12.0/1492810362829/Microsoft.VisualStudio.Services.Icons.Default" alt="the ruby programming language logo" />
-      </div>
-      <div class="results" id="java">
-        <h2>Java</h2>
-        <p>If you want to work at an enterprise-level company as an Android developer, Java is watchu need.</p>
-      </div>
-      <div class="results" id="php">
-        <h2>PHP</h2>
-        <p>If you want to work at a creative agency building content-heavy websites for brands, PHP would be a good language to know.</p>
-      </div>
-      <div class="results" id="else">
-        <h2>Do Something else!</h2>
-        <img src="http://www.wallfrog.com/wp-content/uploads/2015/03/man-trowing-computer-out.jpg" alt="man throwing computer in lake" />
-      </div>
-      <div class="results" id="uhoh">
-        <h2>something went wrong</h2>
-        <img src="https://pbs.twimg.com/profile_images/75603339/spicoli.jpg" alt="spicoli looking distraught" />
-        <h3>make sure you answered all the questions</h3>
       </div>
     </div>
   </body>

@@ -1,3 +1,49 @@
+body {
+  height: 100%;
+
+  background: linear-gradient( rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75) ), url('http://img02.deviantart.net/0786/a/large/wallpaper/wmovie/matrix_green.jpg') no-repeat center center fixed;
+  background-size: cover;
+
+  color: white;
+}
+
 #css, #c-sharp, #ruby, #java, #php, #uhoh, #else {
   display: none;
+}
+
+img {
+  max-width: 400px;
+  margin-left: 40px;
+  padding: 40px;
+}
+
+.container-bg{
+  height: 1500px;
+  background-color: rgba(0, 250, 0, 0.1);
+  padding: 20px;
+}
+
+.heading {
+  text-align: center;
+  padding: 60px;
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('https://s-media-cache-ak0.pinimg.com/originals/11/a8/5d/11a85db2f7b125dc278e87ca2acd65b5.jpg') no-repeat center center;
+  background-attachment: local;;
+  background-size: cover;
+
+}
+
+.green{
+  background-color: green;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.red {
+  background-color: red;
+}
+
+.formpadding {
+  padding: 10px;
 }
