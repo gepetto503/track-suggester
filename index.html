@@ -8,5 +8,42 @@
     <title></title>
   </head>
   <body>
+    <div class="container">
+      <form id="userForm" action="index.html" method="post">
+        <div class="radio">
+          <h2>Question 1: Front End or Back End</h2>
+          <p>Do you prefer to deal with how things look, or with how they work?</p>
+          <label>
+            <input type="radio" name="front-back" value="look">
+            How things look
+          </label>
+          <label>
+            <input type="radio" name="front-back" value="work">
+            How they work
+          </label>
+        </div>
+        <div class="radio">
+          <h2>Question 2: Big or Small Company</h2>
+          <p>Would you rather work for an enterprise-level company or a startup?</p>
+          <label>
+            <input type="radio" name="cosize" value="big">
+            Enterprise level company
+          </label>
+          <label>
+            <input type="radio" name="cosize" value="small">
+            Startup
+          </label>
+        </div>
+        <button type="submit" name="button">Submit</button>
+      </form>
+      <div class="results" id="css">
+        <h2>CSS</h2>
+        <p>you would be good at css, bro.</p>
+      </div>
+      <div class="results" id="c-sharp">
+        <h2>C#</h2>
+        <p>Pronounced "C Sharp," this language fits your whole boring-back-end-stuff-at-a-huge-corporate-shithole vibe."</p>
+      </div>
+    </div>
   </body>
 </html>
