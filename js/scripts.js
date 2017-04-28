@@ -12,7 +12,12 @@ $(document).ready(function() {
 
     var androidBase = $("input:radio[name=android-base]:checked").val();
 
-    if (lookWork === "look") {
+    var likeComps = $("input:radio[name=likecomps]:checked").val();
+
+    if (likeComps === "no") {
+      $(".results").hide();
+      $("#else").show();
+    } else if (lookWork === "look") {
       $(".results").hide();
       $("#css").show();
     } else if (appSite === "app") {
@@ -24,12 +29,9 @@ $(document).ready(function() {
     }else if (coSize === "big" && androidBase === "android") {
       $(".results").hide();
       $("#java").show();
-    } else if (true) {
-      $(".results").hide();
-      $("#php").show();
     } else {
       $(".results").hide();
-      $("#uhoh").show();
+      $("#php").show();
     };
 
 
